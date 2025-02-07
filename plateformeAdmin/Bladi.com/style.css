@@ -1,0 +1,174 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background-image: url("../Bladi.com/assets/bgimage.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.formwraper{
+    display: flex;
+    width: 70%;
+    height: 600px;
+    background-color: yellowgreen;
+    margin-top: 80px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(104, 101, 25);
+}
+.formDiv{
+    width: 35%;
+    padding: 8%;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 0 10px 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.formDiv p{
+    color: #584b21;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.welcomDiv{
+    width: 50%;
+    padding: 0 20px;
+    background-image: url("../Bladi.com/assets/oujda2.jpg");
+    background-size: cover;
+    text-align: left;
+    color: white;
+    border-radius: 10px 0  0 10px ;
+    
+}
+.textContainer{
+    display: flex;
+    align-items: center;
+    height: 70%;
+    align-content: center;
+}
+
+.text{
+    font-size: small;
+    font-size: 48px;
+    text-align: center;
+    font-weight: bold;
+    
+    color: #fff;
+    
+}
+
+.input-box{
+    width: 100%;
+    position: relative;
+    margin-top: 15px;
+
+}
+
+.input-box input{
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid rgb(101, 101, 12);
+}
+.input-box input:focus{
+    outline: 0;
+    border: 1px solid rgb(101, 101, 12);
+    color: rgb(101, 101, 12);;
+}
+input::placeholder{
+    position: relative;
+    left: 5px;
+}
+.btn{
+    width: 100%;
+    padding: 10px;
+    background-color:#b9ad50;
+    margin-top:15px ;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color:#584b21;
+
+}
+span{
+    color: rgb(165, 165, 31);
+}
+
+label{
+    position: absolute;
+    color: rgb(101, 101, 12);
+    background: #ffffff;
+    font-size: 12px;
+    transform: translate(10px -10px);
+    padding: 0px 10px;
+    margin-left: 9px;
+    display: none;
+}
+.input-box:focus-within label{
+    display: block;
+}
+
+form{
+    width: 100%;
+}
+#emailerror, #passerror{
+    margin-top: 5px;
+    color: red;
+    font-size: 10px;
+   width: 90%;
+   display: none;
+    
+}
+/*making page responsive*/
+@media screen and (max-width:1000px) {
+    .formwraper{
+        width: 70%;
+    }
+    .text{
+        font-size: small;
+        font-size: 24px;
+        
+    }
+    .formDiv p{
+        font-size: 20px;
+        
+    }
+    
+}
+@media screen and (max-width:600px) {
+    
+    .formDiv{
+        width: 90%;
+        border-radius: 10px;
+    }
+    body {
+        
+        border-radius: 10px;background-image: url("../Bladi.com/assets/oujda2.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .formwraper{
+        height: 500px;
+        
+    }
+    .welcomDiv{
+        display: none;
+    }
+    .formDiv p{
+        font-size: 20px;
+        
+    }
+    
+}

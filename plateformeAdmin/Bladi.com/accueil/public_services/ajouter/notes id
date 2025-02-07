@@ -1,0 +1,25 @@
+$con=mysqli_connect("localhost","root","");
+        if(!$con){ echo "impossible de se connecter a localhost";exit;}
+        if(!mysqli_select_db($con,"bladi")){echo "impossible de se connecter a la base de données";exit;}
+        $res=mysqli_query($con,"SELECT id FROM hotels ORDER BY id DESC LIMIT 1;");
+        if(!$res)
+        {
+            echo "Erreur dans l'exécution de la requête. ";
+                exit;
+        }
+        else{
+            $id=0;
+            while($ligne = mysqli_fetch_object($res)) {
+                $id=$ligne->id;
+                }
+            $query=mysqli_query($con,"insert into hotels values('$id','$nom','$description','$tel','$website','$services','$adresse','$att','$image1','$image2','$image3');");//attention ici c'est tres important d'ajouter '' je dois pas mettre les variables tous seul , comme je peux pas utilise ""
+            if(!$query)
+            {   
+                echo "Erreur dans l'exécution de la requête. ";
+                exit;
+            } 
+            else{
+                
+                header('location:reussi.html');
+            }
+        }

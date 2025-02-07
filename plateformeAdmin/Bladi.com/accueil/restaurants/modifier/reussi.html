@@ -1,0 +1,136 @@
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bladi</title>
+    <link rel="stylesheet" href="reussi.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            
+            <div class="table-header" >
+                <div class="nav-icon" onclick="toggleSideBar()">
+                <i class="fa fa-bars"></i>
+                </div>
+                    <p> Modifier hotel </p>
+                    
+                </div>
+           
+        </nav>
+        <main>
+            <div class="container2">
+                <div class="popup" id="popup">
+                     <h2>Thank you ! </h2>
+                     <p> Your details has been successfully submitted. Thanks!</p>
+                     <button type="button" onclick="closepopup()" class="confirmer"> Suivant </button>
+                 </div>
+             </div>
+            
+        </main>
+
+        <div id="sidebar">
+            <div class="sidebar__title">
+                <div class="mngsidebar__img">
+                    <img src="../assets/Logo Eva factory.png" alt="">
+                    <h1> Bladi</h1>
+                </div> 
+                <i class="fa fa-times"  id="sidebarIcon" onclick="closeSidebar()"></i>
+                
+            </div>
+            <div class="sidebar__menu">
+                <div class="sidebar__link ">
+                    <i class="fa fa-home"></i>
+                     <a href="../../accueil.html"> Tableau de board</a>
+                </div>
+                <h2> services... </h2>
+                <div class="sidebar__link active_menu_link">
+                    <i class="fa fa-bed" aria-hidden="true"></i>
+                    <a href="../hotels.php"> Hotels </a>
+                </div>
+
+                <div class="sidebar__link">
+                    <i class="fa fa-smile-o" aria-hidden="true"></i>
+                    <a href="./hotels/hotels.html"> entertainment </a>
+                </div>
+
+                <div class="sidebar__link">
+                    <i class="fa fa-futbol-o" aria-hidden="true"></i>
+                    <a href="./hotels/hotels.html"> Sports </a>
+                </div>
+                
+                <div class="sidebar__link">
+                    <i class="fa fa-car" aria-hidden="true"></i>
+                    <a href="./hotels/hotels.html"> Transportation </a>
+                </div>
+                
+                <div class="sidebar__link">
+                    <i class="fa fa-university" aria-hidden="true"></i>
+                    <a href="./hotels/hotels.html"> services publiques </a>
+                </div>
+
+                <div class="sidebar__link">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    <a href="./hotels/hotels.html"> Shopping </a>
+                </div>
+
+                <div class="sidebar__link">
+                    <i class="fa fa-cutlery" aria-hidden="true"></i>
+                    <a href=""> Restaurants </a>
+                </div>
+
+                <div class="sidebar__link">
+                    <i class="fa fa-user-md" aria-hidden="true"></i>
+                    <a href=""> Pharmacies </a>
+                </div>
+
+                <div class="sidebar__link">
+                    <i class="fa fa-university" aria-hidden="true"></i>
+                    <a href=""> Banques </a>
+                </div>
+
+                <div class="sidebar__link">
+                    <i class="fa fa-exchange" aria-hidden="true"></i>
+                    <a href=""> Bureaux de change </a>
+                </div>
+
+                <div class="sidebar__link">
+                    <i class="fa fa-cog" aria-hidden="true"></i>
+                    <a href=""> Parametres </a>
+                </div>
+
+                
+
+                <h2> us </h2>
+                <div class="sidebar__link">
+                    <i class="fa fa-newspaper-o" aria-hidden="true"></i>
+                    <a href="#"> news </a>
+                </div>
+
+                <div class="sidebar__link">
+                    <i class="fa fa-info" aria-hidden="true"></i>
+                    <a href="#"> About </a>
+                </div>
+
+                <div class="sidebar__link">
+                    <i class="fa fa-user-secret"></i>
+                    <a href="#"> Parametres </a>
+                </div>
+
+                <div class="sidebar__logout">
+                    <i class="fa fa-power-off"></i>
+                    <a href="../deconnexion/deconnexion.php"> deconnexion </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="reussi.js"></script>
+
+</body>
+</html>
