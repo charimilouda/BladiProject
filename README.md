@@ -56,4 +56,5 @@ Vise à présenter le potentiel touristique du Maroc de manière attrayante et c
 - **CHARI Milouda** - Développeur Full-Stack  
 
 ## 📩 Contact
-🔗 LinkedIn : [ton-profil-linkedin]  
+🔗 **LinkedIn** (https://linkedin.com/in/milouda-chari/)  
+ 
