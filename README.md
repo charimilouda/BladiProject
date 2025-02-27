@@ -3,14 +3,14 @@ Ine solution informatique pour la réalisation d'un écosystème touristique nat
 ## 🚀 Technologies Utilisées
 
 ### 📱 Application Mobile :
-- **Langage** :   Dart(Flutter) 
-- **Base de données** :  MySQL
+- **Langage** : Dart(Flutter) 
+- **Base de données** : MySQL
 - **Autres outils** : Android Studio,xampp
 
 ### 💻 Plateforme Admin :
-- **frontend** :   JS, Bootstrap,
-- **Backend** :   PHP
-- **Base de données** :MySQL
+- **Frontend** : JS, Bootstrap
+- **Backend** : PHP
+- **Base de données** : MySQL
 - **Autres outils** : Vs Code, Xampp
 ## 📌 Fonctionnalités Principales
 ### Gestion des endroits touristiques : 
