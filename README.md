@@ -48,7 +48,7 @@ Vise à présenter le potentiel touristique du Maroc de manière attrayante et c
 ![details2](captures/details2.png) 
 ![details3](captures/details3.png) 
 ![transport](captures/transport.png) 
-![detailstrans](captures/detailstrans.png) 
+![detailsTr](captures/detailsTr.png) 
 
 
 ## 👥 Equipe : 
