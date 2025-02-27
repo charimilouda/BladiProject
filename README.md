@@ -24,14 +24,16 @@ Ine solution informatique pour la réalisation d'un écosystème touristique nat
 
 ## 💻 Plateforme Admin :
  La plateforme web est un outil d'administration qui accompagne mon application mobile. Cette plateforme permet 
-✅ de gérer et de mettre à jour les informations relatives aux différents endroits. 
-✅ Elle offre aux administrateurs un moyen convivial et efficace de gérer les hôtels, les 
+- ✅ de gérer et de mettre à jour les informations relatives aux différents endroits. 
+- ✅ Elle offre aux administrateurs un moyen convivial et efficace de gérer les hôtels, les 
 restaurants et d'autres endroits. 
 ### 📸 Captures d'Écran : 
 ![pageConnexion](captures/connexion.png) 
 ![interfaceHotels](captures/hotels.png) 
 ![chercherHotel](captures/chercherHotel.png) 
 ![addHotel](captures/addHotel.png) 
+![modifierHotel](captures/modifierHotel.png) 
+![supprimerHotel](captures/supprimerHotel.png) 
 
 
 ## 📱 Application Mobile :
