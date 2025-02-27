@@ -37,24 +37,23 @@ restaurants et d'autres endroits.
 
 
 ## 📱 Application Mobile :
-✅ Authentification (inscription, connexion)  
-✅ Gestion des utilisateurs  
-✅ Affichage de données en temps réel  
-✅ [Autres fonctionnalités spécifiques]  
+Vise à présenter le potentiel touristique du Maroc de manière attrayante et conviviale. Elle offre aux utilisateurs une expérience interactive pour découvrir et explorer les différents endroits du pays.
+### 📸 Captures d'Écran
+![splash+home](captures/home.png) 
+![home](captures/home2.png) 
+![carteGeo](captures/carteGeo.png) 
+![menu](captures/menu.png) 
+![hotels](captures/hotels.png) 
+![details](captures/details.png) 
+![details2](captures/details2.png) 
+![details3](captures/details3.png) 
+![transport](captures/transport.png) 
+![supprimerHotel](captures/supprimerHotel.png) 
 
-## 📸 Captures d'Écran
-
-### 📱 Application Mobile
-![Page d'accueil mobile](captures/home-mobile.png)  
-![Profil utilisateur](captures/profile-mobile.png)  
-
-### 💻 Plateforme Admin
-![Dashboard Admin](captures/dashboard-admin.png)  
-![Gestion des utilisateurs](captures/users-admin.png)  
 
 ## 👥 Equipe : 
 - Encadrant : M. FIKRI Zakaria
-- **[CHARI Milouda]** - Développeur Full-Stack  
+- **CHARI Milouda** - Développeur Full-Stack  
 
 ## 📩 Contact
 🔗 LinkedIn : [ton-profil-linkedin]  
